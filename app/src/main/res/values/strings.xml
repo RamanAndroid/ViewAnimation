@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewAnimation</string>
+
+    <string name="button_launch_drawable_animation">Drawable animation</string>
+    <string name="button_launch_property_animation">Property animation</string>
+    <string name="button_launch_view_animation">View animation</string>
+    <string name="button_launch_animated_vector_drawable_animation">Animated vector drawable animation</string>
+</resources>
