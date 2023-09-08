@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/shop"
+        android:icon="@drawable/ic_shop_32"
+        android:title="Shop" />
+
+    <item
+        android:id="@+id/bestChoice"
+        android:icon="@drawable/ic_best_choice_32"
+        android:title="Best choice" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_32"
+        android:title="Settings" />
+</menu>
