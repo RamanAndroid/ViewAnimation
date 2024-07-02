@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        openFragment(AndroidAnimationFragment.newInstance())
+        openFragment(LottieAnimationFragment.newInstance())
     }
 
     private fun openFragment(fragment: DefaultFragment) {
