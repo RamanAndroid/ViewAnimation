@@ -11,6 +11,7 @@ import android.os.Looper
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.Animation.AnimationListener
+import android.view.animation.AnimationUtils
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.ScaleAnimation
 import androidx.core.animation.addListener
@@ -131,9 +132,11 @@ class AndroidAnimationFragment : DefaultFragment(R.layout.fragment_android_anima
                 hideAnimation()
             }
         })
+        val scaleAnimationXml = AnimationUtils.loadAnimation(requireContext(), R.anim.scale_animation)
         binding.animation.startAnimation(scaleAnimation)
     }
 
+    //Решил попробовать что за анимация такая интересная
     private fun launchAnimatedVectorDrawable() {
         val drawableAnimation = AnimatedVectorDrawableCompat.create(
             requireContext(),
